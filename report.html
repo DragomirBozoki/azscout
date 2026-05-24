@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<title>AzScout report - 42fc4c05-7234-4f60-b55f-baebec291809</title>
+<style>
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 32px; background: #f7f7f5; color: #1a1a1a; }
+.wrap { max-width: 1180px; margin: 0 auto; }
+h1 { font-size: 22px; font-weight: 500; margin: 0 0 4px; }
+.sub { font-size: 13px; color: #666; margin-bottom: 24px; }
+.metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px; }
+.metric { background: #fff; border-radius: 10px; padding: 14px 16px; border: 0.5px solid #e6e4dc; }
+.metric-l { font-size: 12px; color: #777; }
+.metric-v { font-size: 22px; font-weight: 500; margin-top: 4px; font-variant-numeric: tabular-nums; }
+.metric-v.bad { color: #A32D2D; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 12px; overflow: hidden; border: 0.5px solid #e6e4dc; font-size: 13px; }
+th { text-align: left; padding: 12px 14px; font-weight: 500; color: #777; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 0.5px solid #e6e4dc; background: #fafaf7; }
+th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; }
+td { padding: 12px 14px; border-bottom: 0.5px solid #f0eee6; }
+tr.row-critical { background: rgba(226, 75, 74, 0.06); }
+tr.row-warn { background: rgba(239, 159, 39, 0.05); }
+.name { font-weight: 500; }
+.sub-name { font-size: 11px; color: #888; margin-top: 2px; }
+.pill { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 11px; font-weight: 500; }
+.p-critical { background: #FCEBEB; color: #791F1F; }
+.p-warn { background: #FAEEDA; color: #633806; }
+.p-ok { background: #EAF3DE; color: #27500A; }
+.p-unknown { background: #f0eee6; color: #555; }
+.infinity { color: #A32D2D; font-weight: 500; font-size: 14px; }
+.reason { color: #666; font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Cost vs usage scoreboard</h1>
+  <div class="sub">Subscription: 42fc4c05-7234-4f60-b55f-baebec291809 &middot; cost window: last 30 days &middot; metric window: last 14 days &middot; generated: 2026-05-23 09:32 UTC</div>
+
+  <div class="metrics">
+    <div class="metric"><div class="metric-l">Total cost (window)</div><div class="metric-v">€0</div></div>
+    <div class="metric"><div class="metric-l">Flagged critical</div><div class="metric-v bad">0</div></div>
+    <div class="metric"><div class="metric-l">Estimated waste</div><div class="metric-v bad">€0</div></div>
+    <div class="metric"><div class="metric-l">Resources tracked</div><div class="metric-v">7</div></div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 28%">Resource</th>
+        <th class="num" style="width: 11%">€ / window</th>
+        <th class="num" style="width: 11%">Active</th>
+        <th class="num" style="width: 12%">€ / active hour</th>
+        <th style="width: 10%">Status</th>
+        <th>Reason</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr class="row-unknown">
+        <td>
+          <div class="name">generabortstorage</div>
+          <div class="sub-name">storageaccounts &middot; Standard_RAGRS &middot; ct-ai-rg-ctbot-dev-weu-01</div>
+        </td>
+        <td class="num">0.00</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+        <td><span class="pill p-unknown">unknown</span></td>
+        <td class="reason"></td>
+      </tr>
+      
+      <tr class="row-unknown">
+        <td>
+          <div class="name">ctaiegstoragecontainer</div>
+          <div class="sub-name">storageaccounts &middot; Standard_RAGRS &middot; ct-ai-rg-eg-ai-assistant-dev-weu-01</div>
+        </td>
+        <td class="num">0.00</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+        <td><span class="pill p-unknown">unknown</span></td>
+        <td class="reason"></td>
+      </tr>
+      
+      <tr class="row-unknown">
+        <td>
+          <div class="name">ctaiplumberstoragedev01</div>
+          <div class="sub-name">storageaccounts &middot; Standard_RAGRS &middot; ct-ai-rg-plumberscb-euw-dev-01</div>
+        </td>
+        <td class="num">0.00</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+        <td><span class="pill p-unknown">unknown</span></td>
+        <td class="reason"></td>
+      </tr>
+      
+      <tr class="row-unknown">
+        <td>
+          <div class="name">ASP-ctairgplumberscbeuwdev01-b41a</div>
+          <div class="sub-name">serverfarms &middot; B1 &middot; ct-ai-rg-plumberscb-euw-dev-01</div>
+        </td>
+        <td class="num">0.00</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+        <td><span class="pill p-unknown">unknown</span></td>
+        <td class="reason"></td>
+      </tr>
+      
+      <tr class="row-unknown">
+        <td>
+          <div class="name">staifoundrygatewaypoc</div>
+          <div class="sub-name">storageaccounts &middot; Standard_LRS &middot; ct-rg-ai-cognitive-shared-dev-weu-01</div>
+        </td>
+        <td class="num">0.00</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+        <td><span class="pill p-unknown">unknown</span></td>
+        <td class="reason"></td>
+      </tr>
+      
+      <tr class="row-unknown">
+        <td>
+          <div class="name">ASP-ctrgaicognitiveshareddevweu01-b7d6</div>
+          <div class="sub-name">serverfarms &middot; P0v3 &middot; ct-rg-ai-cognitive-shared-dev-weu-01</div>
+        </td>
+        <td class="num">0.00</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+        <td><span class="pill p-unknown">unknown</span></td>
+        <td class="reason"></td>
+      </tr>
+      
+      <tr class="row-unknown">
+        <td>
+          <div class="name">func-foundry-gateway-poc-plan</div>
+          <div class="sub-name">serverfarms &middot; EP1 &middot; ct-rg-ai-cognitive-shared-dev-weu-01</div>
+        </td>
+        <td class="num">0.00</td>
+        <td class="num">—</td>
+        <td class="num">—</td>
+        <td><span class="pill p-unknown">unknown</span></td>
+        <td class="reason"></td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+</body>
+</html>

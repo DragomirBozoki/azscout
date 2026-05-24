@@ -1,0 +1,17 @@
+﻿**/.venv
+**/.venv311
+**/node_modules
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/dist
+**/.git
+**/.idea
+**/.vscode
+**/.DS_Store
+**/Thumbs.db
+**/*.log
+**/.env
+**/.env.local
+**/azscout.db*
+**/*.sqlite

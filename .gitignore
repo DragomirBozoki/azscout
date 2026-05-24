@@ -1,0 +1,30 @@
+﻿# Python
+**/.venv
+**/.venv311
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+
+# Node
+**/node_modules
+**/dist
+**/.vite
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+!.env.docker.example
+
+# Databases
+**/azscout.db*
+**/*.sqlite
+**/*.db
+
+# Tooling / IDE
+.git
+.idea
+.vscode
+.DS_Store
+Thumbs.db
+*.log

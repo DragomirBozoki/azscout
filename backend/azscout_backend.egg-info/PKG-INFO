@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: azscout-backend
+Version: 0.1.0
+Summary: AzScout backend API
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.115.0
+Requires-Dist: uvicorn[standard]>=0.30.0
+Requires-Dist: sqlalchemy>=2.0.0
+Requires-Dist: alembic>=1.13.0
+Requires-Dist: apscheduler>=3.10.4
+Requires-Dist: pydantic-settings>=2.4.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: azure-identity
+Requires-Dist: azure-mgmt-resourcegraph
+Requires-Dist: azure-mgmt-costmanagement
+Requires-Dist: azure-monitor-query==1.4.1
+Requires-Dist: azure-core
+Requires-Dist: jinja2
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: httpx>=0.27.0; extra == "dev"
+Requires-Dist: ruff>=0.6.0; extra == "dev"
